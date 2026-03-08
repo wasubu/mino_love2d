@@ -3,19 +3,14 @@
 --
 function love.load()
     Object = require "classic"
-
     require "circle"
-    r1 = Circle(0, 0)
-    r2 = Circle()
-    print(r1.test, r2.test)
+    cicle1 = Circle()
 end
 
 function love.update(dt)
-    r1:update(dt)
-    r2:update(dt)
+    cicle1:update(dt)
 end
 
 function love.draw()
-    r1:draw()
-    r2:draw()
+    cicle1:draw()
 end

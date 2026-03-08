@@ -1,5 +1,8 @@
-function love.load()
-    circles = {}
+--
+--
+--
+function love.load() -- sdfjsgjoigajoijgw
+    circles = {}     -- asfldk;lsajg;lsjas;gjgs;j;j
 end
 
 function spawnCircles(tableName)

@@ -1,13 +1,14 @@
 --
 --
 --
+local r1, r2
+
 function love.load()
     Object = require "classic"
-
-    require "circle"
-    r1 = Circle(0, 0)
-    r2 = Circle()
-    print(r1.test, r2.test)
+    Rectangle = require "rectangle"
+    Circle = require "circle"
+    r1 = Rectangle(100, 200, 100, 100)
+    r2 = Circle(100, 400, 70)
 end
 
 function love.update(dt)
